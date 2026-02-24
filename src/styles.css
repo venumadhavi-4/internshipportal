@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fb;
+  color: #1f2937;
+}
+
+.header {
+  background: #0f172a;
+  color: #fff;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.header a,
+.header button {
+  color: #fff;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid #64748b;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #dbe3ee;
+  margin-bottom: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+}
+
+input,
+textarea,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e1;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #0ea5e9;
+  color: white;
+  border: none;
+}
+
+.progress {
+  background: #e2e8f0;
+  height: 10px;
+  border-radius: 8px;
+}
+
+.progress-fill {
+  background: #10b981;
+  height: 10px;
+  border-radius: 8px;
+}
